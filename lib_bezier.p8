@@ -1,6 +1,10 @@
 pico-8 cartridge // http://www.pico-8.com
 version 33
 __lua__
+
+--This file is a shambles. I have made no attempts to simplify it, and I think the interface could be confusing.
+--It needs love. Here be dragons.
+
 function lerp(a,b,t)
  return (1-t) * a + (t * b)
 end
