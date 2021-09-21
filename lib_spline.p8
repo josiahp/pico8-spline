@@ -138,7 +138,7 @@ function spline:getpoint(_t)
  local points=self.points
 
  if _t == 1 then
-  i=#points-4
+  i=#points-3
  else
   -- multiply t by the number of segments to determine the target segment
   t*=(#points-1)/3
